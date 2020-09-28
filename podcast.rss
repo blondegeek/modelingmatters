@@ -29,12 +29,11 @@
 		</itunes:owner>
 		<itunes:image href="{{ site.url }}/assets/images/PTP_logo_itunes.jpg" />
 		<itunes:category text="Technology" />
-		<itunes:category text="Education">
 			<itunes:category text="Podcasting" />
+		<itunes:category text="Education">
 		</itunes:category>
 		<itunes:category text="Society &amp; Culture">
 			<itunes:category text="Philosophy" />
-			<itunes:category text="Self-help" />
 		</itunes:category>
 		<itunes:explicit>yes</itunes:explicit>
 		{% for post in site.episodes %}
