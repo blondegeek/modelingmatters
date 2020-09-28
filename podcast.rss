@@ -28,7 +28,7 @@
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
 		<itunes:image href="{{ site.url }}/assets/images/PTP_logo_itunes.jpg" />
-		<itunes:category text="Technology" />
+		<itunes:category text="Technology">
 			<itunes:category text="Podcasting" />
 		</itunes:category>
 		<itunes:category text="Education">
