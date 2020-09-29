@@ -177,11 +177,11 @@ section#intro {
 		width:100%;
 		z-index:0;
 		opacity:.15;
-		background: url('../images/splash_modeling_matters.gif') no-repeat center center;
+		background: url('../images/splash_animation_modeling_matters_shorter.gif') no-repeat center center;
 		background-size:contain;
-		// @include touch(){
-		// 	background-image: url('../images/splash_mobile.gif');
-		// }
+		@include touch(){
+			background-image: url('../images/splash_animation_modeling_matters_shorter_mobile.gif');
+		}
 	}
 }
 
