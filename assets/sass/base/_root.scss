@@ -3,11 +3,11 @@ $fa-font-path: "/assets/node_modules/@fortawesome/fontawesome-free/webfonts";
 @import url('https://use.fontawesome.com/releases/v5.2.0/css/all.css');
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Poppins:200,400,700');
 
-$primary: #D79C34;
-$primary-light: #F9E5D0;
-$blue: #20285C;
-$pink: #ECB6B8;
-$pink-light: #F5DBDC;
+$primary: #009999;
+$primary-light: #99ffff;
+$grey: #333333;
+$pink: #ff6666;
+$pink-light: #ffcccc;
 $white: #FFFFFF;
 
 $family-primary:  'Poppins', sans-serif;
@@ -60,7 +60,7 @@ header {
 	z-index:1;
 	transition: background .3s;
 	h1 {
-		background:$blue;
+		background:$grey;
 		color:$white;
 		padding: $button-padding-vertical $button-padding-horizontal;
 		font-size:$size-5;
@@ -73,7 +73,7 @@ header {
 			@include strong-type();
 			display:block;
 			margin:10px 0 9px 1.5rem;
-			color:$blue;
+			color:$grey;
 			transition: color .3s;
 		}
 	}
@@ -95,7 +95,7 @@ header {
 		margin-bottom:0;
 		height:43px;
 		width:43px;
-		background:$blue;
+		background:$grey;
 		span {
 			height:2px;
 			background:$white;
@@ -113,7 +113,7 @@ header {
 	  position: fixed;
 	  top: 0;
 	  width: 100%;
-	  background:$blue;
+	  background:$grey;
 
 	  @include desktop {
 	  	h1 {
@@ -162,7 +162,7 @@ section#intro {
 		}
 		.icon {
 			transform:rotate(90deg);
-			background:$blue;
+			background:$grey;
 			border-radius:50%;
 			i {
 				padding-left:3px;
@@ -177,16 +177,16 @@ section#intro {
 		width:100%;
 		z-index:0;
 		opacity:.15;
-		background: url('../images/splash.gif') no-repeat center center;
+		background: url('../images/splash_modeling_matters.gif') no-repeat center center;
 		background-size:contain;
-		@include touch(){
-			background-image: url('../images/splash_mobile.gif');
-		}
+		// @include touch(){
+		// 	background-image: url('../images/splash_mobile.gif');
+		// }
 	}
 }
 
 section#episodes {
-	background:$blue;
+	background:$grey;
 	h2 {
 		color:$white;
 		margin-bottom:$gap/4;
@@ -239,7 +239,7 @@ section#episodes {
 
 #subscribe {
 	a {
-		color:$blue;
+		color:$grey;
 		text-decoration:underline;
 		transition: opacity .3s;
 		&:hover {
@@ -261,7 +261,7 @@ section#zine {
 
 		h2 {
 			color:$white;
-			background:$blue;
+			background:$grey;
 			padding: $button-padding-vertical $button-padding-horizontal;
 			margin-left:-$box-padding;
 		}
@@ -293,10 +293,10 @@ section#events {
 	.box {
 		color:$white;
 		p a { color:$white; text-decoration: underline; }
-		background: $blue;
+		background: $grey;
 
 		h2 {
-			color:$blue;
+			color:$grey;
 			background:$pink;
 			padding: $button-padding-vertical $button-padding-horizontal;
 			margin-left:-$box-padding;
