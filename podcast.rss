@@ -54,7 +54,7 @@
 				<itunes:image href="{{ site.url }}/assets/images/modelingmatters_logo.jpg" />
 				<itunes:explicit>{{ post.explicit }}</itunes:explicit>
 				<itunes:block>{{ post.block }}</itunes:block>
-				<itunes:new-feed-url>http://preservethispodcast.org/podcast.rss</itunes:new-feed-url>
+				<itunes:new-feed-url>http://modelingmatters.com/podcast.rss</itunes:new-feed-url>
 			</item>
 		{% endfor %}
 	</channel>
