@@ -1,5 +1,5 @@
 title: Modeling Matter(s)
-description: Early career scientists illuminate the experiments, tools, and mental models they use to understand the world around us.
+description: Early career researchers illuminate the experiments, tools, and mental models they use to understand the world around us.
 baseurl: ""
 url: "http://www.modelingmatters.com"
 
@@ -27,8 +27,8 @@ plugins:
 # Podcast Feed settings
 title:          Modeling Matter(s)
 email:          tess@modelingmatters.com
-description:    "Preserve This Podcast is an Andrew W. Mellon grant-funded project hosted by the Metropolitan New York Library Council (METRO) to help podcasters protect their work against the threats of digital decay."
-subtitle:       "Early career scientists illuminate the experiments, tools, and mental models they use to understand the world around us."
+description:    "Early career researchers illuminate the experiments, tools, and mental models they use to understand the world around us."
+subtitle:       "Up-and-coming scientists illuminate (why) Modeling Matter(s)."
 url:            http://modelingmatters.com/
 language:       en-us
 author:         ModelingMatter(s)
