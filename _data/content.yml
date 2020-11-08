@@ -11,6 +11,9 @@ radiopublic_link: #
 rss_link: http://modelingmatters.com/podcast.rss
 
 episodes:
+  - name: "Casey Glick: Puns, Asking questions, Microfluidics, Hilbert and Sullivan"
+    download_link: https://ia801501.us.archive.org/28/items/modeling-matters-podcast-episode-1-casey-glick/ModelingMatter%28s%29_Episode_1_Casey_Glick_host_Tess_Smidt_20201031.mp3
+    episode_file: ep0-casey-glick-microfluidics-and-puns  
 
 events:
 

@@ -33,15 +33,15 @@ layout: default
 		<h2>LISTEN: how &amp; why to preserve your podcast</h2>
 		{% for episode in site.data.content.episodes %}
 
-{% if episode.transcript_file %}
-{% assign transcript_path = 'transcripts/'| append: episode.transcript_file | append: '.md' %}
-{% capture transcript_content %}{% include_relative {{transcript_path}} %}{% endcapture %}
+{% if episode.episode_file %}
+{% assign episode_path = 'details/'| append: episode.episode_file | append: '.md' %}
+{% capture episode_content %}{% include_relative {{episode_path}} %}{% endcapture %}
 <div class="modal" id="transcript-{{ forloop.index }}">
 	<div class="modal-background"></div>
 	<div class="modal-content">
 		<div class="box">
 			<div class="content">
-	  			{{ transcript_content | markdownify }}
+	  			{{ episode_content | markdownify }}
 	  		</div>
 		</div>
 	</div>
@@ -61,7 +61,7 @@ layout: default
 				</div>
 				<div class="column">
 					<h3>{{ episode.name }}</h3>
-					<a href="{{ episode.download_link }}">Download episode</a>{% if episode.transcript_file %}&nbsp;&nbsp;|&nbsp;&nbsp;<a data-modal="#transcript-{{ forloop.index }}" href="#">Read transcript</a>{% endif %}{% if episode.exercises_link %}&nbsp;&nbsp;|&nbsp;&nbsp;<a href="{{ episode.exercises_link }}" target="_blank">Do the exercises</a>{% endif %}
+					<a href="{{ episode.download_link }}">Download episode</a>{% if episode.episode_file %}&nbsp;&nbsp;|&nbsp;&nbsp;<a data-modal="#transcript-{{ forloop.index }}" href="#">Read episode details</a>{% endif %}{% if episode.exercises_link %}&nbsp;&nbsp;|&nbsp;&nbsp;<a href="{{ episode.exercises_link }}" target="_blank">Do the exercises</a>{% endif %}
 				</div>
 			</div>
 
