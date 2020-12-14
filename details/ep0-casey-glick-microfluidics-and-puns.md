@@ -1,4 +1,4 @@
-# Modeling Matters, Episode 1
+# Modeling Matter(s), Episode 1
 # Casey Glick: Puns, Asking questions, Microfluidics, Hilbert and Sullivan
 Modeling Matter(s) is a podcast that showcases early career researchers and the mental models they use to investigate the world around us.
 

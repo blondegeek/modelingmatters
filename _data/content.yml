@@ -14,7 +14,9 @@ episodes:
   - name: "Casey Glick: Puns, Asking questions, Microfluidics, Hilbert and Sullivan"
     download_link: https://ia801501.us.archive.org/28/items/modeling-matters-podcast-episode-1-casey-glick/ModelingMatter%28s%29_Episode_1_Casey_Glick_host_Tess_Smidt_20201031.mp3
     episode_file: ep0-casey-glick-microfluidics-and-puns  
-  - name: "COMING SOON -- Sukrit Silas"
+  - name: "Sukrit Silas: RNA viruses, Y Combinator, and the Ingredients for Doing Good Science"
+    download_link: https://ia601501.us.archive.org/4/items/modeling-matterss-2-sukrit-silas-host-tess-smidt-20201214/Modeling%20Matter%28s%29_2_Sukrit_Silas_host_Tess_Smidt_20201214.mp3
+    episode_file: ep2-sukrit-silas-rna-viruses-and-yc
   - name: "COMING SOON -- Mekena Metcalf"
 
 events:
